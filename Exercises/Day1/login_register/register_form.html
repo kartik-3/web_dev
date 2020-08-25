@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A login and register form.">
+		<meta name="author" content="Kartik Sehgal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style type="text/css">
+			* {
+				box-sizing: border-box;}
+
+			body {
+				background-color: black;}
+
+			.register {
+				padding: 50px;
+				background-color: white;}
+
+			input {
+				width: 100%;
+				padding: 15px;
+				background-color: lightgrey;
+			}
+
+			.reg_btn {
+				background-color: grey;
+				margin-top: 10px;
+			}
+
+			.login {
+				padding: 50px;
+				background-color: lightgrey;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="register">
+			<h1>Registration Form</h1>
+			<form>
+				<label for="email"><b>Email</b></label>
+				<input type="text" name="email" placeholder="Email" id="email" required>
+				<br/>
+				<label for="password"><b>Password</b></label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<br/>
+				<label for="retype_password"><b>Confirm Password</b></label>
+				<input type="password" name="retype_password" placeholder="Confirm Password" id="retype_password" required>
+				<br/>
+				<button type="submit" class="reg_btn">Register</button>
+			</form>
+		</div>
+		<div class="login">
+			<p>Already have an account? <a href=#>Sign in</a></p>
+		</div>
+		<script type="text/javascript">
+			var email = document.getElementById("email").value;
+			var pwd = document.getElementById("password").value;
+			var re_pwd = document.getElementById("retype_password").value;
+
+			if (pwd != re_pwd){
+				alert ("Password do not match");
+			}
+			else if (pwd == "" || re_pwd == "" || email == ""){
+				alert("field can not be blank");
+			}
+			else{
+				alert("Registration successful!");
+			}
+		</script>
+	</body>
+</html>
