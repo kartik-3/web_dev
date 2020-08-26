@@ -1,0 +1,52 @@
+body {
+	background-color: lightyellow;
+}
+
+.slider {
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	margin-top: 8em;
+	margin-bottom: 8em;
+	text-align: center;
+	overflow: hidden;
+}
+
+.image-container {
+	width: 1500px;
+	height: 300px;
+	position: relative;
+	transition: left 2s;
+}
+
+.slide {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+#img-1:target ~ .image-container {
+	left: 0px;
+}
+		
+#img-2:target ~ .image-container {
+	left: -500px;
+}
+		
+#img-3:target ~ .image-container {
+	left: -1000px;
+}
+		
+.buttons {
+	position: relative;
+	top: -22px;
+}
+		
+.buttons a {
+    display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: lightblue;
+}
