@@ -1,0 +1,69 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+}
+
+p {
+	margin: 1em;
+	color: white;
+	padding-bottom: 1em;
+}
+
+.main {
+	background-color: #333;
+	margin: 2em;
+}
+
+.slider {
+	text-align: center;
+	margin: auto;
+	width: 540px;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.img-container {
+	width: 1620px;
+	max-height: 300px;
+	position: relative;
+	transition: left 2s;
+}
+
+.images {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width:540px;
+	max-height: 300px;
+	position: relative;
+}
+
+#img1:target ~ .img-container {
+	left: 0px;
+}
+
+#img2:target ~ .img-container {
+	left: -540px;
+}
+
+#img3:target ~ .img-container {
+	left: -1080px;
+}
+
+.btn {
+	position: relative;
+	top: -25px;
+}
+
+.btn a {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: red; 
+}
