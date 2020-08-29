@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+	color: #ffffcc;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+
+.main_form {
+	padding-left: 14%;
+	padding-right: 14%;
+	padding-bottom: 1em;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border-style: solid;
+	border-color: white;
+}
+
+h1 {
+	text-align: center;
+	color:  #ffff44;
+}
+
+label {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffff99;
+}
+
+input {
+	font-size: 15px;
+}
