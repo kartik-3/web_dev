@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(https://cdn.hipwallpaper.com/i/42/56/CJpq8i.jpg);
+	opacity: 1;
+	text-align: center;
+	margin: 0px;
+}
+
+.name {
+	margin-top: 10%;
+	font-size: 100px;
+	font-weight: bolder;
+	opacity: 1;
+}
+
+.occupation {
+	margin-top: 30px;
+	font-size: 75px;
+	font-weight: normal;
+	opacity: 1;
+}
+
+.image {
+	margin-top: 10px;
+	padding: 2em;
+	width: 80px;
+	height: 80px;
+}
