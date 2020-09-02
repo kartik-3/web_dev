@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.bold {
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.blue {
+	color: rgb(67, 73, 244);
+}
+
+.main {
+	border: solid 1px black;
+	background-color: rgb(255,255,221);
+}
+
+.heading {
+	background-color: rgb(140, 32, 32);
+	color: white;
+	text-align: center;
+}
+
+.asterix {
+	color: rgb(255,75,52);
+}
+
+.foot {
+	background-color: rgb(255,255,221);
+}
+
+.tab1 {
+	margin-left: 1em;
+}
+
+.tab2 {
+	margin-left: 2em;
+}
+
+.tab5 {
+	margin-left: 5em;
+}
+
+.tab10p {
+	margin-left: 10%;
+}
+
+.tbl {
+	width: 100%;
+	border-spacing: 0px;
+	border: 1px solid black;
+}
+
+td {
+	border-spacing: 0px;
+	border: solid 1px black;
+}
